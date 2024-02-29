@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Copy configuration files
+      copy:
+        src: "/config_files/"
+        dest: "/etc/myapp/"
+        owner: root
+        group: root
+        mode: 0644
+
