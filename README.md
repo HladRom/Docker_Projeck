@@ -9,13 +9,13 @@ The main objective of this project is to create and configure a Docker container
 ## Project Overview
 The project includes the following stages:
 
-Docker Image Creation: Development of a Docker image containing the software and scripts for configuration setup.
+- Docker Image Creation: Development of a Docker image containing the software and scripts for configuration setup.
 
-Configuration Management System Development: Development of a system that allows for automated changes to configuration parameters during container startup.
+- Configuration Management System Development: Development of a system that allows for automated changes to configuration parameters during container startup.
 
-Integration with Docker: Integration of the configuration management system with Docker for automated configuration of the container upon its launch.
+- Integration with Docker: Integration of the configuration management system with Docker for automated configuration of the container upon its launch.
 
-Testing and Validation: Checking the correctness of the configuration management system and Docker container by testing configuration parameter changes and verifying the results.
+- Testing and Validation: Checking the correctness of the configuration management system and Docker container by testing configuration parameter changes and verifying the results.
 
 ## Conclusion
 Creating a Docker container that automatically configures itself to change configuration parameters upon startup using a custom configuration management system is an important step towards automating deployment and software management processes. This project provides a convenient and efficient way to manage Docker container configurations, simplifying deployment and ensuring environment consistency.
